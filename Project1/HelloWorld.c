@@ -9,14 +9,14 @@ int main()
 	int result = 0;
 	int num;
 
-	printf("2 이상의 정수를 입력 : ");
+	printf("2 이상의 정수를 입력하시오 : ");
 	scanf("%d", &num);
 
 	if (num < 2)
 	{
 		do
 		{
-			printf("2 이상의 정수를 입력 : ");
+			printf("2 이상의 정수를 입력하시오 : ");
 			scanf("%d", &num);
 		} while (num > 1);
 	}
